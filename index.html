@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Totally Trivial Trivia!</title>
+
+    <!-- CSS style sheet -->
+    <link rel="stylesheet" href="style.css">
+
+     <!--my jQuery link -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <div>Time Remaining: <span id=timer>100</span> seconds</div>
+
+      <!-- Div containing trivia questions-->
+      <div>What planet is closest to the sun?</div>
+      <div class="question1">
+      <input type="radio" value="optionA"> a) Mars
+      <input type="radio" value="optionB"> b) Venus
+      <input type="radio" value="optionC"> c) Mercury
+      <input type="radio" value="optionD"> d) Jupiter
+      </div>
+
+      <div>Which of the following states does NOT touch the Gulf of Mexico?</div>
+      <div class="question2">
+      <input type="radio" value="optionA"> a) Texas
+      <input type="radio" value="optionB"> b) Florida
+      <input type="radio" value="optionC"> c) Alabama
+      <input type="radio" value="optionD"> d) Georgia
+      </div>
+
+      <div>What is the lowest prime number?</div>
+      <div class="question3">
+      <input type="radio" value="A"> a) 1
+      <input type="radio" value="B"> b) 2
+      <input type="radio" value="C"> c) 3
+      <input type="radio" value="D"> d) 5
+      </div>
+
+      <div>"Carefully" is an example of what type of word?</div>
+      <div class="question4">
+      <input type="radio" value="A"> a) Adjective
+      <input type="radio" value="B"> b) Adverb
+      <input type="radio" value="C"> c) Verb
+      <input type="radio" value="D"> d) Pronoun
+      </div>
+
+      <div>Inca civilizations were concentrated on what continent?</div>
+      <div class="question5">
+      <input type="radio" value="A"> a) North America
+      <input type="radio" value="B"> b) South America
+      <input type="radio" value="C"> c) Asia
+      <input type="radio" value="D"> d) Africa
+      </div>
+
+      <div>What major event happened in 1620?</div>
+      <div class="question6">
+      <input type="radio" value="A"> a) Christopher Columbus discovered the West Indies
+      <input type="radio" value="B"> b) The Declaration of Independence was signed
+      <input type="radio" value="C"> c) Abraham Lincoln was assassinated
+      <input type="radio" value="D"> d) The pilgrims settled in the New World
+      </div>
+
+      <div>To serve as President of the United States, the candidate must be at least __ of age.</div>
+      <div class="question7">
+      <input type="radio" value="A"> a) 18
+      <input type="radio" value="B"> b) 21
+      <input type="radio" value="C"> c) 35
+      <input type="radio" value="D"> d) 38
+      </div>
+
+<div id="submitButton">
+<input type="button" value="Done" id="submitButton" onClick="gradeit()"> 
+<input type="button" value="Start Over" id="resetButton" onClick="document.myquiz.reset()">
+</div>
+
+
+    <!-- My Javascript link -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+  </body>
+
+</html>
+
